@@ -12,7 +12,7 @@ character line consists of 5 normal lines and in the printing process,
 each line is processed with a certain cycle and printing is done.
 
 
-
+<hr/>
 
 [TR]
 Girilen yazıyı, yıldız ile çizerek yazan program.
