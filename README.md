@@ -24,4 +24,5 @@ Yazdırma işleminde her bir harfi yıldızlar kullanarak çizer.
 Her bir yıldızlı karakter satırı 5 adet normal satırdan oluşmakta ve yazdırma 
 işleminde her bir satır belirli bir döngü ile işlenerek yazdırma işlemi yapılır.
 
+<hr/>
 version: 5.5
