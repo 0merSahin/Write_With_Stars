@@ -761,8 +761,7 @@ int main(){
 
 
     girdi:
-
-
+    
 
     uzunluk=0;
     int kontrola=0,kontrolb=0,kontrolc=0,kontrold=0,kontrole=0;
@@ -849,7 +848,11 @@ int main(){
 
     if (dizi[0]=='t' && dizi[1]=='e' && dizi[2]=='m' && dizi[3]=='i' && dizi[4]=='z' && dizi[5]=='l' && dizi[6]=='e' && dizi[7]=='(' && dizi[8]==')'){
         fopen("gecmis.png", "w");
-        fopen("sayac.dat", "w");
+        if (fopen("sayac.dat" ,"r")) {
+            FILE *sayac_dat2 = fopen("sayac.dat", "w");
+            fprintf(sayac_dat2, "%d\n", 0);
+        }
+        //fopen("sayac.dat", "w");
         //remove("gecmis.png");
         //remove("sayac.dat");
         printf("\n----------------------------------------------------------------\n");
