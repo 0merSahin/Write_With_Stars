@@ -1,6 +1,6 @@
 # Write_With_Stars
 
-[EN]
+[EN] <br/>
 A program that writes the entered text by drawing with an asterisk.
 
 According to the line length specified by the user (default: 23), it 
@@ -14,7 +14,7 @@ each line is processed with a certain cycle and printing is done.
 
 <hr/>
 
-[TR]
+[TR] <br/>
 Girilen yazıyı, yıldız ile çizerek yazan program.
 
 Kullanıcının belirlediği satır uzunluğuna göre (default: 23), girilen cümleyi
