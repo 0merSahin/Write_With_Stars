@@ -26,4 +26,4 @@ işleminde her bir satır belirli bir döngü ile işlenerek yazdırma işlemi y
 
 <hr/>
 
-version: 5.5
+version: 5.6
