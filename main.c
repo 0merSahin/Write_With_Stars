@@ -816,7 +816,7 @@ int main(){
     }
     //--------------------------------------------------------------------------------------------------------------
 
-        //--------------------------------------- Gecmis Yazdirma Algoritmasi ----------------------------------------------
+    //--------------------------------------- Gecmis Yazdirma Algoritmasi ----------------------------------------------
     // yazdırıldıktan sonra girdi'ye geri dönüyor !
 
     if (dizi[0]=='g' && dizi[1]=='e' && dizi[2]=='c' && dizi[3]=='m' && dizi[4]=='i' && dizi[5]=='s' && dizi[6]=='(' && dizi[7]==')'){
@@ -848,8 +848,10 @@ int main(){
     //-------------------------------------- Geçmiş Temizleme Algoritmasi ------------------------------------------
 
     if (dizi[0]=='t' && dizi[1]=='e' && dizi[2]=='m' && dizi[3]=='i' && dizi[4]=='z' && dizi[5]=='l' && dizi[6]=='e' && dizi[7]=='(' && dizi[8]==')'){
-        remove("gecmis.png");
-        remove("sayac.dat");
+        fopen("gecmis.png", "w");
+        fopen("sayac.dat", "w");
+        //remove("gecmis.png");
+        //remove("sayac.dat");
         printf("\n----------------------------------------------------------------\n");
         printf("\nGecmis yok edildi..\n");
         //free(gecmis_png);
