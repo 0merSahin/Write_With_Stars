@@ -25,4 +25,5 @@ Her bir yıldızlı karakter satırı 5 adet normal satırdan oluşmakta ve yazd
 işleminde her bir satır belirli bir döngü ile işlenerek yazdırma işlemi yapılır.
 
 <hr/>
+
 version: 5.5
